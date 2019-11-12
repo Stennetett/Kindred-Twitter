@@ -1,0 +1,190 @@
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  min-height: 10vh;
+  color: lightgreen;
+  
+}
+.nav-links{
+
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  top: 30px;
+
+}
+
+
+#test {
+  height: 70px;
+  width: auto;
+  background-color: #555;
+}
+
+
+
+.iconText{
+ 
+}
+
+
+
+
+
+
+
+@keyframes fade {
+  0% {
+  opacity:1;
+}
+
+
+
+100% {opacity:0;
+}
+}
+
+
+@keyframes fade2 {
+  0% {
+  opacity:0;
+}
+
+100% {
+opacity:1;
+}
+}
+
+ .top{
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  width: 70px;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  
+  
+}
+ .bottom{
+  animation-name: fade2;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  width: 70px;
+  position: fixed;
+  left: 5spx;
+  top: 5px;
+  
+}
+
+
+.search{
+  width: 50px;
+  position: fixed;
+  left: 10px;
+  top: 80px;
+  overflow: hidden;
+  
+}
+
+
+
+.popup{
+  height: 70px;
+  width: 85px;
+  background-color: rgb(42, 224, 26);
+  transition: width 0.5s;
+  position: fixed;
+  top: 70px;
+  
+
+  
+}
+
+
+
+.longSide{
+  height: 100%;
+  width: 85px;
+  background-color: rgb(95, 95, 95);
+ 
+  position: fixed;
+  top: 140px;
+}
+
+
+
+.text {
+ 
+
+  position: absolute;
+  margin-left: 45%;
+  width: 50%;
+  top:15%; 
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color: rgb(42, 224, 26);
+ 
+
+ 
+ 
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 40%;
+     
+      top: 15%; 
+    }
+  
+    to {
+      margin-left: 45%;
+      
+      top: 15%; 
+    }
+  }
+ 
+
+
+
+
+
+.popup:hover {
+  width: 300px;
+  
+
+  
+}
+
+
+#wrapper .text {
+
+  
+  
+  visibility:hidden;
+
+
+  }
+  
+  #wrapper:hover .text {
+   
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+    
+   
+   
+  visibility:visible;
+  }
