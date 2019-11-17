@@ -28,9 +28,7 @@ nav{
 
 
 
-.iconText{
- 
-}
+
 
 
 
@@ -103,7 +101,7 @@ opacity:1;
 
 
 
-.popup{
+.searchPopOut{
   height: 70px;
   width: 85px;
   background-color: rgb(42, 224, 26);
@@ -166,7 +164,7 @@ opacity:1;
 
 
 
-.popup:hover {
+.searchPopOut:hover {
   width: 300px;
   
 
