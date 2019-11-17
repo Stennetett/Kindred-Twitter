@@ -34,7 +34,7 @@ function Hello() {
 
 
                 <div id="wrapper">
-                    <div className="popup">
+                    <div className="searchPopOut">
                     <input className="text" type="text" placeholder="Search.."></input>
 
                     <div id="searchIcon">
