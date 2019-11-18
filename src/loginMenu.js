@@ -9,6 +9,9 @@ function Login() {
     <div className = "startBackground">
 
     <img className="login" src={require('./loginpage.png')} />
+    
+    <input className="loginName" type="text" placeholder="Name"></input>
+    <input className="loginPassword" type="text" placeholder="Password"></input>
 
    
 
