@@ -9,7 +9,7 @@ function Hello() {
 
     return (
 
-        <Router>
+      
             <div>
 
                 <div id="test">
@@ -58,15 +58,10 @@ function Hello() {
 
 
 
-                <Switch>
-                    <Route path="/about" component={About} />
-                    <Route path="/shop" component={Shop} />
-                </Switch>
-
-
+               
 
             </div>
-        </Router >
+      
 
     )
 }

@@ -1,21 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './flowDesign.css';
 import Hello from "./mainMenu";
-import Navigation from "./Navigation";
-import About from "./About";
 import Shop from "./Shop";
-
+import Login from "./loginMenu";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
+    <Router>
     <div>
-      <Hello />
-
+  
+        <Switch>
+          <Route exact path="/" component={Login} />
+          <Route path="/main" component={Hello} />
+          <Route path="/shop" component={Shop} />
+        </Switch>
       
-
     </div>
+    </Router >
   );
 }
+
+
 
 export default App;

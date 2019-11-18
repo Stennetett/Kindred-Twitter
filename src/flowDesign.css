@@ -1,0 +1,26 @@
+.column1{
+  height: 100%;
+  width: 2px;
+  background-color: rgb(42, 224, 26);
+  position: fixed;
+  left: 85px;
+  
+}
+
+.column2{
+    height: 100%;
+    width: 2px;
+    background-color: rgb(172, 172, 172);
+    position: fixed;
+    left: 33%;
+   
+}
+
+.column3{
+    height: 100%;
+    width: 2px;
+    background-color: rgb(172, 172, 172);
+    position: fixed;
+    left: 66%;
+}
+
